@@ -23,7 +23,7 @@ EOF
 #启动服务
 sudo systemctl daemon-reexec
 sudo systemctl daemon-reload
-sudo systemctl start vnc.service
+sudo systemctl restart vnc.service
 #等待4秒查看启动状态
 sleep 4
 sudo systemctl status vnc.service
