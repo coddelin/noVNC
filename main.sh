@@ -1,4 +1,4 @@
-source ./install.sh
+source ./install-vnc.sh
 #复制脚本
 sudo cp ./start-vnc.sh /usr/local/bin/.
 sudo chmod +x /usr/local/bin/start-vnc.sh
